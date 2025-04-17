@@ -1,25 +1,23 @@
-#container {
-  text-align: left;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 12%;
-  transform: translateY(-50%);
+.card{
+  display: flex;
+  width: 200px;
+  height: 200px;
+  flex-wrap: wrap
+}
+.container{
+  display: flex;
+  flex-wrap: wrap
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-fab[slot="fixed"] { 
+  position: fixed;
+  bottom: 40px;   
+  right: 30px;   
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-  color: #8c8c8c;
-  margin: 0;
+.popover{
+  width: 500px;
+  height: 500px;
 }
-
-#container a {
-  text-decoration: none;
+ion-list{
+  width: 100%;
 }
-
